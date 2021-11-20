@@ -75,7 +75,7 @@ function menu() {
           
            if ($choice1 -match "^[yY]$") {
 
-                   # Save the results to a csv file.
+                   
                    Write-Host "Saving contents to your desired location..."
                    sleep 1
                    $runningProcess | Export-Csv -Path $readDir\processes.csv
@@ -97,7 +97,7 @@ function menu() {
           $choice2 = Read-Host -Prompt "Would you like to save the results to a .csv file? Y or N"
 
            if ($choice2 -match "^[yY]$") {
-                   # Save the results to a csv file.
+                   
                    Write-Host "Saving contents to the Incident Response Toolkit folder on your desktop..."
                    sleep 1
                    $services | Export-Csv -Path $global:folderPath\services.csv
@@ -122,7 +122,7 @@ function menu() {
            $choice3 = Read-Host -Prompt "Would you like to save the results to a .csv file? Y or N"
 
            if ($choice3 -match "^[yY]$") {
-                   # Save the results to a csv file.
+                 
                    Write-Host "Saving contents to the Incident Response Toolkit folder on your desktop..."
                    sleep 1
                    $tcpSockets | Export-Csv -Path $global:folderPath\tcpsockets.csv
@@ -147,7 +147,7 @@ function menu() {
            $choice4 = Read-Host -Prompt "Would you like to save the results to a .csv file? Y or N"
 
            if ($choice4 -match "^[yY]$") {
-                   # Save the results to a csv file.
+                  
                    Write-Host "Saving results to the Incident Response Toolkit in the Documents directory..."
                    sleep 1
                    $userInfo | Export-Csv -Path $global:folderPath\userinfo.csv
@@ -172,7 +172,7 @@ function menu() {
            $choice5 = Read-Host -Prompt "Would you like to save the results to a .csv file? Y or N"
 
            if ($choice5 -match "^[yY]$") {
-                   # Save the results to a csv file.
+                
                    Write-Host "Saving results to the Incident Response Toolkit folder in the Documents directory..."
                    sleep 1
                    $netAdapter | Export-Csv -Path $global:folderPath\netadapterinfo.csv
@@ -197,7 +197,7 @@ function menu() {
            $choice6 = Read-Host -Prompt "Would you like to save the results to a .csv file? Y or N"
 
            if ($choice6 -match "^[yY]$") {
-                   # Save the results to a csv file.
+                
                    Write-Host "Saving results to the Incident Response Toolkit folder in the Documents directory..."
                    sleep 1
                    $executionPolicy | Export-Csv -Path $global:folderPath\executionPolicies.csv
@@ -222,7 +222,7 @@ function menu() {
            $choice7 = Read-Host -Prompt "Would you like to save the results to a .csv file? Y or N"
 
            if ($choice7 -match "^[yY]$") {
-                   # Save the results to a csv file.
+                 
                    Write-Host "Saving results to the Incident Response Toolkit folder in the Documents directory..."
                    sleep 1
                    $getHotfix | Export-Csv -Path $global:folderPath\hotfixes.csv
@@ -247,7 +247,7 @@ function menu() {
            $choice8 = Read-Host -Prompt "Would you like to save the results to a .csv file? Y or N"
 
            if ($choice8 -match "^[yY]$") {
-                   # Save the results to a csv file.
+                  
                    Write-Host "Saving results to the Incident Response Toolkit folder in the Documents directory..."
                    sleep 1
                    $eventLog | Export-Csv -Path $global:folderPath\eventlogz.csv
@@ -271,7 +271,7 @@ function menu() {
            $choice9 = Read-Host -Prompt "Would you like to save the results to a .csv file? Y or N"
 
            if ($choice9 -match "^[yY]$") {
-                   # Save the results to a csv file.
+               
                    Write-Host "Saving results to the Incident Response Toolkit folder in the Documents directory..."
                    sleep 1
                    $services2 | Export-Csv -Path $global:folderPath\all_services.csv
